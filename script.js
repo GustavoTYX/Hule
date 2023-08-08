@@ -19,9 +19,7 @@ let playHours = 0;
 
 clickButton.addEventListener('click', () => {
     exp += 10;
-    money += 5;
     expValue.textContent = exp;
-    moneyValue.textContent = money;
 
     if (exp >= parseInt(expRequired.textContent)) {
         level++;
